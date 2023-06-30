@@ -12,7 +12,7 @@ function sendemail() {
     
         Email.send({
             SecureToken : "754a6d56-96c8-40bb-8c10-06665bc83895",
-            To : 'induranga.20200688@iit.ac.lk',
+            To : 'dinil.20200516@iit.ac.lk',
             From : 'arunashantha838@gmail.com',
             Subject : "Message from the Portfolio",
             Body : Body
