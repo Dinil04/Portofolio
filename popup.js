@@ -11,15 +11,15 @@ function sendemail() {
         var Body = 'Name: ' + name + '<br>Email: ' + email + '<br>Subject: ' + Subject + '<br>Message: ' + message;
     
         Email.send({
-            SecureToken : "754a6d56-96c8-40bb-8c10-06665bc83895",
+            SecureToken : "a45c8df9-cf4f-4e87-8299-ae7ec48fb0e5",
             To : 'dinil.20200516@iit.ac.lk',
-            From : 'arunashantha838@gmail.com',
+            From : 'dinilhansindu2020@gmail.com',
             Subject : "Message from the Portfolio",
             Body : Body
         }).then(
             message => {
-                //  alert(message)
-                //console.log (message);
+                //alert(message)
+                //sconsole.log (message);
                 if (message == 'OK') {
     
                     let main = document.getElementById("main");
